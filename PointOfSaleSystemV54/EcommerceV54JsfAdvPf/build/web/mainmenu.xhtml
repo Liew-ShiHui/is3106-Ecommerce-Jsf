@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <section id="mainmenu" class="mainmenu">
+        <h3>Main Menu</h3>
+        <h:form>
+            <p:menu style="width:200px">
+                <p:menuitem value="Home" outcome="/index" icon="fa fa-home" />
+                
+                <p:submenu label="Ecommerce">
+                    <p:menuitem value="Browse All Products" icon="fa fa-search" outcome="/ecommerce/browseAllProducts.xhtml"/>
+                    <p:menuitem value="Shopping Cart" icon="fa fa-shopping-cart" outcome="/ecommerce/shoppingCart.xhtml"/>
+                    <p:menuitem value="View My Sales Transaction" icon="fa fa-list" outcome="/ecommerce/viewMySalesTransaction.xhtml"/>
+                </p:submenu>
+            </p:menu>
+        </h:form>
+    </section>
+
+</ui:composition>
+
