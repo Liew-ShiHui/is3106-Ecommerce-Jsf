@@ -8,6 +8,7 @@ The ecommerce web application is built using **Java Enterprise Edition (J2EE)** 
 2) Edit private properties file (change to your own user name on laptop)
 3) Set up mySQL database (database name: pointofsalesystemv54) and connect to it
 4) Clean and build project, before deploying it onto glassfish server
+5) Url: localhost:8080/EcommerceV54JsfAdvPf/
 
 ## Use cases implemented:
 1) Register customer
