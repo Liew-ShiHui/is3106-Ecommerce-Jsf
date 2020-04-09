@@ -1,4 +1,4 @@
-# is3106EcommerceJsf
+# IS3106 Ecommerce Jsf Web application
 Assignment for IS3106 module (Graded Homework)
 
 The ecommerce web application is built using **Java Enterprise Edition (J2EE)** backend system and **JavaServer Faces** server-side frontend technology with **PrimeFaces** composite component, and follows the MVVM (Model-View-ViewModel) frontend architecture.
